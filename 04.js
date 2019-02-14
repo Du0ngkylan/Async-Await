@@ -1,7 +1,8 @@
-// Khái niệm về callback 
+//                       NODEJS Xử lý bất đồng bộ – Bài 4: Callback function
+
+// Khái niệm về callback :
 // Nói một cách dễ hiểu, callback tức là ta truyền một đoạn code (Hàm A) này vào một đoạn code khác (Hàm B).
 // Tới một thời điểm nào đó, Hàm A sẽ được hàm B gọi lại (callback).
-
 
 let square = (a, b, h) => (a + b) * h / 2;
 
@@ -25,28 +26,4 @@ add('4', 5, (err, res) => {
   if(err) return console.log('Loi ' + err);
   console.log('Ket qua: ' + res);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
