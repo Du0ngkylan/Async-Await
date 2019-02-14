@@ -11,7 +11,7 @@
 //   Có 3 cách cơ bản đó là: Hàm trả về (callback), promise và async/await.
 
 // Thứ tự thục hiện các câu lệnh: câu lệnh nào viết trước sẽ được thực hiện trước 
-// (nhưng câu lệnh nào viết trước chưa chắc đã chạy xong trước).
+// (nhưng câu lệnh nào thực hiện trước chưa chắc đã chạy xong trước).
 
 setTimeout(() => {
   console.log('Bat Dau Nao');
