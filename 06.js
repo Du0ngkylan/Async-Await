@@ -1,3 +1,5 @@
+//                                      NODEJS Xử lý bất đồng bộ – Bài 6: Promise cơ bản
+
 // Tìm hiểu Promise trong Javascript - ES6
 
 // Promise được đưa vào Javascript từ ES6,
@@ -38,40 +40,5 @@ let aPromise = new Promise((resolve, reject) => {
 
 aPromise.then((msg) => console.log('Da thuc thi: ' + msg),
 (errMsg) => console.log(errMsg + ''));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
