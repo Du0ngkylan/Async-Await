@@ -33,6 +33,9 @@ let aPromise = new Promise((resolve, reject) => {
   }, 2000);
 })
 
+// Phương thức then() có nhiệm vụ tiếp nhận kết quả trả về của promise
+// và nó cũng return về một promise nên bạn có thể dùng nhiều lần liên tiếp với nhau.
+
 aPromise.then((msg) => console.log('Da thuc thi: ' + msg),
 (errMsg) => console.log(errMsg + ''));
 
