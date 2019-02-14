@@ -1,4 +1,5 @@
-// hướng dẫn tìm hiểu về callback hell
+// Hướng dẫn tìm hiểu về callback hell
+// Thông qua bài toán tính diện tích hình thang
 
 let square = (a, b, h) => (a + b) * h / 2;
 
@@ -19,7 +20,6 @@ let multiply = (a, b, cb) => {
     cb(undefined, a * b);
   }, 1000);
 }
-
 
 let divide = (a, b, cb) => {
   setTimeout(() => {
